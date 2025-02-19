@@ -1,7 +1,37 @@
 #!/bin/bash
 # Script to create menus and take action according to that selected menu item.
 
-# FontMenu
+
+
+
+############################################################
+# Help                                                     #
+############################################################
+Help()
+{
+   # Display Help
+   echo "My Personal(kinda Bloated Launcher Utility)"
+   echo
+   echo "   LazyLauncher [-g|h|f]"
+   echo "   options:"
+   echo "   g     Start in GUI mode"
+   echo "   h     Print this Help."
+   echo "   f     Font Menu"
+   echo
+}
+
+############################################################
+# GUI                                                      #
+############################################################
+GUI()
+{
+    nohup /home/adam/.local/Scripts/LazyLauncher-GUI.sh &> /dev/null &
+    exit
+}
+
+############################################################
+# Font Menu                                                #
+############################################################
 FontMenu () {
     while :
         do
@@ -59,7 +89,7 @@ FontMenu () {
             *) exit ;;
             esac
         ;;
-        m) return
+        m) MainMenu
         ;;
         q) clear
             exit 0 
@@ -70,6 +100,46 @@ FontMenu () {
         ;;
     esac
   done
+}
+
+Alias() {
+    while :
+            do
+                clear
+                echo "         ╔════════════════════════╗ "
+                echo "        ╔╝          Alias         ╚╗"
+                echo "        ╟──────────────────────────╢"
+                echo "        ║ 1)  -  Edit .bashrc      ║"
+                echo "        ║ 2)  -  Reload aliases    ║"
+                echo "        ║ 3)  -  Show aliases      ║"
+                echo "        ╠══════════════════════════╣"
+                echo "        ║           MENU           ║"
+                echo "        ╟──────────────────────────╢"
+                echo "        ║ m)  -  Main Menu         ║"
+                echo "        ║ q)  -  QUIT              ║"
+                echo "        ╚══════════════════════════╝"
+                echo ""
+                echo -n "Enter your menu choice: "
+                read yourch
+                case $yourch in
+                    1) nano ~/.bashrc
+                        sleep .5 #wait for 1/2 seconds
+                    ;;
+                    2) source ~/.bashrc
+                    ;;
+                    3) clear
+                        alias
+                        sleep 3
+                    ;;
+                    b) SettingsMenu
+                    ;;
+                    m) MainMenu
+                    ;;
+                    q) clear
+                        exit 0
+                esac
+            done
+
 }
 
 # Settings & Configs
@@ -85,6 +155,7 @@ SettingsMenu () {
         echo "        ║ l)  - list plymouth themes     ║"
         echo "        ║ o)  - open plymouth themes     ║"
         echo "        ║ r)  - mkinitcpio(initramfs)    ║"
+        echo "        ║ a)  - Alias                    ║"
         echo "        ║                                ║"
         echo "        ╠════════════════════════════════╣"
         echo "        ║          Config Reloads        ║"
@@ -111,9 +182,11 @@ SettingsMenu () {
         ;;
         r) sudo nano /etc/mkinitcpio.conf
         ;;
+        a) Alias
+        ;;
         R) sudo mkinitcpio -P 
         ;;
-        m) return
+        m) MainMenu
         ;;
         q) clear
             exit 0 
@@ -168,7 +241,7 @@ Ollama () {
         ;;
         3) sudo systemctl status ollama
         ;;
-        m) return
+        m) MainMenu
         ;;
         q) clear
             exit 0 
@@ -181,120 +254,148 @@ Ollama () {
 }
 
 
-while :
-  do
-  clear         
-  echo "         ╔═════════════════════════════════════════════════════╗ "
-  echo "        ╔╝                      Launchers                      ╚╗"
-  echo "        ╟───────────────────────────┬───────────────────────────╢"
-  echo "        ║ a)  -  Arduino Docs       │ b)  -  Bright Space       ║"
-  echo "        ║ c)  -  VS Codium          │ l)  -  Library Services   ║"
-  echo "        ║ n)  -  Nait Main Site     │ f)  -  Foss Torrents      ║"
-  echo "        ║                           │                           ║"
-  echo "        ╠═══════════════════════════╧═══════════════════════════╣"
-  echo "        ║                        Folders                        ║"
-  echo "        ╟───────────────────────────┬───────────────────────────╢"
-  echo "        ║ 1)  -  Circuits           │ 3)  -  OS's & Networking  ║"
-  echo "        ║ 2)  -  Microcontrolers    │ 4)  -  Datasheets         ║"
-  echo "        ╟───────────────────────────┼───────────────────────────╢"
-  echo "        ║ A)  -  Aplications Folder │ AP) -  Appimage Folder    ║"
-  echo "        ║                           │                           ║"
-  echo "        ╠═══════════════════════════╧═══════════════════════════╣"
-  echo "        ║                       SUB MENUS                       ║"
-  echo "        ╟───────────────────────────┬───────────────────────────╢"
-  echo "        ║ F)  -  Font Menu          │ X)  -  Settings/Confs     ║"
-  echo "        ║ O)  -  Ollama             │                           ║"
-  echo "        ║                           │                           ║"
-  echo "        ╠═══════════════════════════╧═══════════════════════════╣"
-  echo "        ║                      Other Shit                       ║"
-  echo "        ╟───────────────────────────┬───────────────────────────╢"
-  echo "        ║ g)  -  GUI                │ r)  -  RCT Launcher       ║"
-  echo "        ║ e)  -  Edit               │ q)  -  QUIT               ║"
-  echo "        ╚═══════════════════════════╧═══════════════════════════╝"
-#   echo "        |                           |"
-#   echo "        | *)  -  Example            |"
-#   echo "        |___________________________|"
-#   echo "        |          Example          |"
-#   echo "        |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
-
-  echo ""
-  echo -n "Enter your menu choice: "
-  read yourch
-  case $yourch in
-    n) xdg-open https://www.nait.ca
-        sleep 1 #sleep for 1 second
-        clear
-        exit 0 
-    ;; 
-    b) xdg-open https://lms.nait.ca/
-        sleep 1 #sleep for 1 second
-        clear
-        exit 0 
-    ;;
-    f) xdg-open https://fosstorrents.com/f
-        sleep 1 #sleep for 1 second
-        clear
-        exit 0
-    ;;
-    A) xdg-open ~/.local/share/applications/
-        sleep .5 #sleep for 1/2 seconds
-        clear
-        exit 0
-    ;;
-    AP) xdg-open ~/.local/Appimages/
-        sleep .5
-        clear
-        exit 0
-    ;;
-    a) xdg-open https://docs.arduino.cc/programming/
-        sleep 1
-        clear
-        exit 0
-    ;;
-    l)  xdg-open https://library.nait.ca/ls
-        sleep 1 #sleep for 1 second
-        clear
-        exit 0
-    ;;
-    4) xdg-open ~/Documents/Datasheets
-        sleep .5
-        clear
-        exit 0
-    ;;
-    F) FontMenu
-    ;;
-    O) Ollama
-    ;;
-    c)  codium
-        sleep .5 #sleep for 1/2 seconds
-        clear
-        exit 0
-    ;;
-    1) xdg-open ~/Documents/ElectricCirtcuits-ELTR1201/
-        sleep .5 #sleep for 1/2 seconds
-        exit 0
-    ;;
-    2) xdg-open ~/Documents/Microcontrolers-ELTR1202/
-        sleep .5 #sleep for 1/2 seconds
-        exit 0
-    ;;
-    3) xdg-open ~/Documents/OperatingSystemsAndNetworking-ELTR1246/
-        sleep .5 #sleep for 1/2 seconds
-        exit 0
-    ;;
-    X) SettingsMenu
-    ;;
-    e) codium ~/.local/Scripts/LazyLauncher.sh
-        sleep .5 #sleep for 1/2 seconds
-        clear
-        exit 0
-    ;;
-    q) clear
-        exit 0 
-    ;;
-    *) echo "Opps!!! Please Try Again"
-       echo "Press a key. . ."
-       read -n 1
-    ;;
-  esac
+while getopts ":hfg" option; do
+   case $option in
+      h) Help
+         exit
+         ;;
+      f) echo "Fuck This Shit"
+         FontMenu
+         ;;
+      g) GUI
+         ;;
+     \?) echo "Error: Invalid option"
+         exit
+         ;;
+   esac
 done
+
+############################################################
+############################################################
+# Main program                                             #
+############################################################
+############################################################
+
+MainMenu() {
+    while :
+    do
+    clear         
+    echo "         ╔═════════════════════════════════════════════════════╗ "
+    echo "        ╔╝                      Launchers                      ╚╗"
+    echo "        ╟───────────────────────────┬───────────────────────────╢"
+    echo "        ║ a)  -  Arduino Docs       │ b)  -  Bright Space       ║"
+    echo "        ║ c)  -  VS Codium          │ l)  -  Library Services   ║"
+    echo "        ║ n)  -  Nait Main Site     │ f)  -  Foss Torrents      ║"
+    echo "        ║                           │                           ║"
+    echo "        ╠═══════════════════════════╧═══════════════════════════╣"
+    echo "        ║                        Folders                        ║"
+    echo "        ╟───────────────────────────┬───────────────────────────╢"
+    echo "        ║ 1)  -  Circuits           │ 3)  -  OS's & Networking  ║"
+    echo "        ║ 2)  -  Microcontrolers    │ 4)  -  Datasheets         ║"
+    echo "        ╟───────────────────────────┼───────────────────────────╢"
+    echo "        ║ A)  -  Aplications Folder │ AP) -  Appimage Folder    ║"
+    echo "        ║                           │                           ║"
+    echo "        ╠═══════════════════════════╧═══════════════════════════╣"
+    echo "        ║                       SUB MENUS                       ║"
+    echo "        ╟───────────────────────────┬───────────────────────────╢"
+    echo "        ║ F)  -  Font Menu          │ X)  -  Settings/Confs     ║"
+    echo "        ║ O)  -  Ollama             │                           ║"
+    echo "        ║                           │                           ║"
+    echo "        ╠═══════════════════════════╧═══════════════════════════╣"
+    echo "        ║                      Other Shit                       ║"
+    echo "        ╟───────────────────────────┬───────────────────────────╢"
+    echo "        ║ g)  -  GUI                │ r)  -  RCT Launcher       ║"
+    echo "        ║ e)  -  Edit               │ q)  -  QUIT               ║"
+    echo "        ╚═══════════════════════════╧═══════════════════════════╝"
+    #   echo "        |                           |"
+    #   echo "        | *)  -  Example            |"
+    #   echo "        |___________________________|"
+    #   echo "        |          Example          |"
+    #   echo "        |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
+
+    echo ""
+    echo -n "Enter your menu choice: "
+    read yourch
+    case $yourch in
+        n) xdg-open https://www.nait.ca
+            sleep 1 #sleep for 1 second
+            clear
+            exit 0 
+        ;; 
+        b) xdg-open https://lms.nait.ca/
+            sleep 1 #sleep for 1 second
+            clear
+            exit 0 
+        ;;
+        g) GUI
+        ;;
+        f) xdg-open https://fosstorrents.com/f
+            sleep 1 #sleep for 1 second
+            clear
+            exit 0
+        ;;
+        A) xdg-open ~/.local/share/applications/
+            sleep .5 #sleep for 1/2 seconds
+            clear
+            exit 0
+        ;;
+        AP) xdg-open ~/.local/Appimages/
+            sleep .5
+            clear
+            exit 0
+        ;;
+        a) xdg-open https://docs.arduino.cc/programming/
+            sleep 1
+            clear
+            exit 0
+        ;;
+        l)  xdg-open https://library.nait.ca/ls
+            sleep 1 #sleep for 1 second
+            clear
+            exit 0
+        ;;
+        4) xdg-open ~/Documents/Datasheets
+            sleep .5
+            clear
+            exit 0
+        ;;
+        F) FontMenu
+        ;;
+        O) Ollama
+        ;;
+        c)  codium
+            sleep .5 #sleep for 1/2 seconds
+            clear
+            exit 0
+        ;;
+        1) xdg-open ~/Documents/ElectricCirtcuits-ELTR1201/
+            sleep .5 #sleep for 1/2 seconds
+            exit 0
+        ;;
+        2) xdg-open ~/Documents/Microcontrolers-ELTR1202/
+            sleep .5 #sleep for 1/2 seconds
+            exit 0
+        ;;
+        3) xdg-open ~/Documents/OperatingSystemsAndNetworking-ELTR1246/
+            sleep .5 #sleep for 1/2 seconds
+            exit 0
+        ;;
+        X) SettingsMenu
+        ;;
+        e) codium ~/.local/Scripts/LazyLauncher.sh
+            sleep .5 #sleep for 1/2 seconds
+            clear
+            exit 0
+        ;;
+        q) clear
+            exit 0 
+        ;;
+        *) echo "Opps!!! Please Try Again"
+        echo "Press a key. . ."
+        read -n 1
+        ;;
+    esac
+    done
+}
+
+MainMenu

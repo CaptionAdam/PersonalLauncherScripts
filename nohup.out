@@ -1,0 +1,152 @@
+
+(zenity:899587): Gtk-WARNING **: 01:01:01.958: Unknown key gtk-modules in /home/adam/.config/gtk-4.0/settings.ini
+
+(zenity:899587): Adwaita-WARNING **: 01:01:02.017: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+
+(zenity:899587): Gdk-WARNING **: 01:01:02.255: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:02.699: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.217: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.236: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.273: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.273: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.277: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:03.565: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:10.851: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:10.852: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:11.520: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:11.543: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:11.885: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:11.904: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:12.062: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:899587): Gdk-WARNING **: 01:01:12.062: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gtk-WARNING **: 01:02:20.332: Unknown key gtk-modules in /home/adam/.config/gtk-4.0/settings.ini
+
+(zenity:900806): Adwaita-WARNING **: 01:02:20.421: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+
+(zenity:900806): Gdk-WARNING **: 01:02:20.760: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:21.808: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:22.352: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:22.365: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:27.418: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:27.418: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:27.521: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:27.526: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.053: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.053: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.248: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.249: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.603: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:28.603: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:29.325: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:29.662: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.066: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.110: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.182: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.229: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.302: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.302: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.315: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.334: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:30.346: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:901051): Gtk-WARNING **: 01:02:34.992: Unknown key gtk-modules in /home/adam/.config/gtk-4.0/settings.ini
+
+(zenity:901051): Adwaita-WARNING **: 01:02:35.081: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+
+(zenity:901051): Gdk-WARNING **: 01:02:36.182: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (24)
+
+(zenity:901051): Gdk-WARNING **: 01:02:36.188: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.318: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.321: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.322: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.631: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.655: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.679: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.680: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.691: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.704: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.940: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:38.958: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:39.064: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:900806): Gdk-WARNING **: 01:02:39.064: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gtk-WARNING **: 01:05:10.392: Unknown key gtk-modules in /home/adam/.config/gtk-4.0/settings.ini
+
+(zenity:903364): Adwaita-WARNING **: 01:05:10.483: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+
+(zenity:903364): Gdk-WARNING **: 01:05:10.827: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:11.963: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:12.037: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:12.122: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:13.213: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:13.450: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:13.781: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:13.789: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:14.505: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:14.505: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:14.511: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)
+
+(zenity:903364): Gdk-WARNING **: 01:05:14.522: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (64) not an integer multiple of theme size (24)

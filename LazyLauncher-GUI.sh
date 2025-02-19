@@ -99,7 +99,7 @@ case "${choice}" in
             done
     ;;
     "edit")
-    codium ~/.local/Scripts/LazyLauncherGUI.sh
+    codium ~/.local/Scripts/LazyLauncher-GUI.sh
     sleep .5 #sleep for 1/2 seconds
     exit 0 
     ;;
